@@ -1,0 +1,27 @@
+:root {
+    --sides: 16px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    height: 256px;
+    width: 256px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.square {
+    /* background-color:chocolate; */
+    height: var(--sides);
+    width: var(--sides);
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
